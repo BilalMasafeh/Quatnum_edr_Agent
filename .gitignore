@@ -1,0 +1,39 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# ML Data & Models (too large for git)
+backend/data/
+backend/ai/data/*.csv
+backend/ai/models/*.pkl
+backend/reports/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Electron
+frontend/desktop/dist/
+frontend/desktop/release/
+frontend/desktop/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

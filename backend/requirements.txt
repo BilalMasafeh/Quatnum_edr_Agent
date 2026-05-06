@@ -1,0 +1,31 @@
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+websockets>=14.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Data & ML
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Quantum ML
+qiskit>=1.0.0
+qiskit-machine-learning>=0.7.0
+qiskit-aer>=0.13.0
+
+# AI Agent
+google-generativeai>=0.8.0
+
+# Elasticsearch
+elasticsearch>=8.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0

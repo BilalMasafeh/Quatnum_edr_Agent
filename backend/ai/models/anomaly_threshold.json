@@ -1,0 +1,6 @@
+{
+  "theta": -0.045686844352882845,
+  "percentile": 5,
+  "sklearn_convention": "decision_function positive = normal, negative = anomaly. Flag event as POTENTIAL_ZERO_DAY if score < theta.",
+  "nfr_03_target": "FPR <= 0.05 on benign calibration data"
+}

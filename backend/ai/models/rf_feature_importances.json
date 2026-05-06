@@ -1,0 +1,56 @@
+{
+  "feature_cols": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Flow Bytes/s",
+    "Fwd IAT Mean",
+    "Destination Port"
+  ],
+  "importances": {
+    "Flow Duration": 0.098585,
+    "Total Fwd Packets": 0.127604,
+    "Total Backward Packets": 0.126951,
+    "Flow Bytes/s": 0.125857,
+    "Fwd IAT Mean": 0.127033,
+    "Destination Port": 0.393971
+  },
+  "ranked": [
+    {
+      "feature": "Destination Port",
+      "importance": 0.393971
+    },
+    {
+      "feature": "Total Fwd Packets",
+      "importance": 0.127604
+    },
+    {
+      "feature": "Fwd IAT Mean",
+      "importance": 0.127033
+    },
+    {
+      "feature": "Total Backward Packets",
+      "importance": 0.126951
+    },
+    {
+      "feature": "Flow Bytes/s",
+      "importance": 0.125857
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.098585
+    }
+  ],
+  "top4_for_qsvm": [
+    "Destination Port",
+    "Total Fwd Packets",
+    "Fwd IAT Mean",
+    "Total Backward Packets"
+  ],
+  "top4_indices_in_feature_cols": [
+    5,
+    1,
+    4,
+    2
+  ]
+}
