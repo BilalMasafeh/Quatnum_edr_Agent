@@ -52,6 +52,11 @@ class AdaptiveEnsemble:
             logger.warning(f"Could not load QSVM feature indices: {e}")
 
         try:
+            import sys
+            from ai.train_qsvm import QuantumSVMPredictor
+            if not hasattr(sys.modules.get("__main__", sys), "QuantumSVMPredictor"):
+                setattr(sys.modules["__main__"], "QuantumSVMPredictor", QuantumSVMPredictor)
+
             self.qsvm_model = joblib.load(MODEL_DIR / "qsvm_model.pkl")
             if self.qsvm_feature_indices is not None:
                 self.qsvm_available = True
